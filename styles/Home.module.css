@@ -104,7 +104,7 @@
   transform: translateZ(0);
 }
 
-.logo {
+.logoNext {
   position: relative;
 }
 /* Enable hover only on non-touch devices */
@@ -209,12 +209,14 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .vercelLogo {
+@media (prefers-color-scheme: linearGradient) {
+  .ejproiLogo {
     filter: invert(1);
   }
+}
 
-  .logo {
+@media (prefers-color-scheme: dark) {
+  .logoNext {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
   }
 }
